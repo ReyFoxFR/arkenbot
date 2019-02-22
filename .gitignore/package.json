@@ -1,0 +1,15 @@
+{
+  "name": "SAOBOT",
+  "version": "1.5.0",
+  "description": "BOT RP SAO",
+  "main": "Main.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ReyFox_FR",
+  "license": "ISC"
+}
