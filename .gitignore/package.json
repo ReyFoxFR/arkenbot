@@ -1,7 +1,7 @@
 {
-  "name": "SAOBOT",
-  "version": "1.5.0",
-  "description": "BOT RP SAO",
+  "name": "Arken[BOT]",
+  "version": "0.7",
+  "description": "BOT Serveur minecraft Arkenfal !",
   "main": "Main.js",
   "dependencies": {
     "discord.js": "^11.4.2"
