@@ -20,9 +20,11 @@
       console.log('-1')
   })
    ///================================/UP===================================///
-bot.on("message"
 
-
+bot.on('message', data => {
+    if (args[0] === prefix + "up") {
+       member.guild.channels.get("550422778239516732").send( args[1] \n args[2] )
+                                                           
 
 
               
