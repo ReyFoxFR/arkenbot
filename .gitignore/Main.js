@@ -4,7 +4,7 @@
   const prefix = "/"
   var args = message.content.split(" ")
 
-  bot.login("NTQ5NzA1ODkzNjUwODkwODUz.D1iDsQ.CINsOGZ_MUy5kYORhEuVCaoIReA");
+  bot.login("NTQ5Mjk3NjAyMTIzMDA1OTk0.D1iOBQ.RwQ5mi29qSfAReoACNncOVbAEC4");
   bot.on('ready', async() =>{
     console.log(+bot.user.username+'Est en ligne !'); 
     bot.user.setActivity("Besoin d'aide ? faites /a help !");
