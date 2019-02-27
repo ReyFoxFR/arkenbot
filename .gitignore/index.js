@@ -7,7 +7,7 @@
   bot.login("NTQ5Mjk3NjAyMTIzMDA1OTk0.D1iOBQ.RwQ5mi29qSfAReoACNncOVbAEC4");
   bot.on('ready', async() =>{
     console.log(+bot.user.username+'Est en ligne !'); 
-    bot.user.setActivity("Besoin d'aide ? faites /a help !");
+    bot.user.setActivity("Besoin d'aide ? faites /help !");
   })
     ///=============================UTILISATEUR=============================///
   bot.on('guildMemberAdd', member =>{
@@ -24,7 +24,9 @@
 bot.on('message', data => {
     if (args[0] === prefix + "up") {
        member.guild.channels.get("550422778239516732").send( args[1] \n args[2] )
-                                                           
+      }
+  });
+                               
 
 
               
