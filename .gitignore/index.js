@@ -1,15 +1,17 @@
   ///=============================CONFIG BASE=============================///
   const Discord = require('discord.js');
   const bot = new Discord.Client(); 
-  
-  bot.login("NTQ4MjY3MjU0NzMxNTA1Njc0.D1C1QQ.hs_55MUzsE6N-O7kMVrvw0ulzpE");
+  const prefix = "/"
+  var args = message.content.split(" ")
+
+  bot.login("NTQ5NzA1ODkzNjUwODkwODUz.D1iDsQ.CINsOGZ_MUy5kYORhEuVCaoIReA");
   bot.on('ready', async() =>{
     console.log(+bot.user.username+'Est en ligne !'); 
     bot.user.setActivity("Besoin d'aide ? faites =help !");
   })
     ///=============================UTILISATEUR=============================///
   bot.on('guildMemberAdd', member =>{
-      member.guild.channels.get('548273429728722944').send('**Bienvenue a toi** ' + member.user + ' **dans l\'Aincrad...Nous sommes actuellement :**  ' + member.guild.memberCount);
+      member.guild.channels.get('548273429728722944').send('**Bienvenue a toi** ' + member.user + ' **Sur Arkenfal...Nous sommes actuellement :**  ' + member.guild.memberCount);
       console.log('+1')
   })
   
@@ -46,12 +48,7 @@
               .setAuthor("[BOT]")
               .setColor(170909)
               .setTimestamp()
-              .setDescription("Bienvenue sur le RP SAO")
-              .addField(" :one: **=roll**",  " La commande =roll permet de tirer un chiffre en 0 et 100 !  ")
-              data.channel.send({embed: embed});
-  
-          }
-          });
-
+              .setDescription("Bienvenue sur le RP SAO"
+              
 
   
