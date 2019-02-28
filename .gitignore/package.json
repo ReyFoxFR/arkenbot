@@ -1,6 +1,6 @@
 {
   "name": "Arken[BOT]",
-  "version": "0.7",
+  "version": "0.0.7",
   "description": "BOT Serveur minecraft Arkenfal !",
   "main": "Main.js",
   "dependencies": {
