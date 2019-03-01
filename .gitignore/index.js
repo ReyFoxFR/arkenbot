@@ -5,7 +5,7 @@ const prefix = "/"
 const embed = new Discord.RichEmbed();
 var Args = message.content.split(" / ")
 
-bot.login("NTQ5Mjk3NjAyMTIzMDA1OTk0.D1k0xA.A2EJ7MQ6zVvt5JJ9Oo_UhNrc1EY");
+bot.login(process.env.TOKEN);
 bot.on('ready', async() =>{
   console.log(+bot.user.username+'Est en ligne !'); 
   bot.user.setActivity("En codage");
